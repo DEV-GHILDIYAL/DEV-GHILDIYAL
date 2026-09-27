@@ -38,6 +38,10 @@ I'm particularly drawn to infrastructure problems where automation, intelligent 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DEV-GHILDIYAL/DEV-GHILDIYAL/main/assets/devops-marquee.svg" width="100%"/>
+</p>
+
 ---
 
 ### 🚀 Featured Projects
@@ -75,7 +79,5 @@ Detects idle resources, oversized services, and billing anomalies across AWS inf
     <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/DEV-GHILDIYAL/DEV-GHILDIYAL/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
-
-<p align="center"><i>⚠️ Needs a one-time GitHub Action setup — see <code>snake.yml</code> below.</i></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:0A66C2&height=100&section=footer" width="100%"/>
