@@ -1,0 +1,55 @@
+name: Chaos Engineering Game
+
+# Visitors open an issue titled "chaos|<action>|<pod>" from the profile README.
+# The cluster "breaks", heals itself, and the incident lands on the profile.
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: chaos-cluster
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  chaos:
+    if: startsWith(github.event.issue.title, 'chaos|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Issue fields are untrusted: passed via env, never interpolated into the script.
+      - name: Inject chaos & self-heal
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_CREATED_AT: ${{ github.event.issue.created_at }}
+          REPLY_FILE: ${{ runner.temp }}/reply.md
+        run: python scripts/chaos.py
+
+      - name: Commit incident
+        env:
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "chaos-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data assets/cluster.svg README.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chaos: incident by @${ISSUE_USER} [skip ci]"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+
+      - name: Reply & close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/reply.md"
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY"

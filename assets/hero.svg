@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="Terminal: kubectl get engineer dev-ghildiyal — DevOps Engineer, Running, Mumbai">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A66C2"/>
+      <stop offset="0.5" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#7CFFCB"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0f1a"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#00D4FF" stroke-opacity="0.05"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#00D4FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <!-- typing masks: width grows from 0 to full -->
+    <clipPath id="t1"><rect x="40" y="128" height="24" width="0"><animate attributeName="width" from="0" to="560" begin="0.6s" dur="1.6s" fill="freeze" calcMode="discrete" values="0;40;80;120;160;200;240;280;320;360;400;440;480;520;560" keyTimes="0;.07;.14;.21;.28;.35;.42;.5;.57;.64;.71;.78;.85;.92;1"/></rect></clipPath>
+    <clipPath id="t2"><rect x="40" y="228" height="24" width="0"><animate attributeName="width" begin="3.6s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;40;80;120;160;200;240" keyTimes="0;.16;.33;.5;.66;.83;1"/></rect></clipPath>
+    <clipPath id="t3"><rect x="40" y="298" height="24" width="0"><animate attributeName="width" begin="5.4s" dur="1s" fill="freeze" calcMode="discrete" values="0;40;80;120;160;200;240;280" keyTimes="0;.14;.28;.42;.57;.71;.85;1"/></rect></clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
+      .sans { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+      .p { fill:#7CFFCB; } .c { fill:#e6edf3; } .dim { fill:#7d8590; } .k { fill:#00D4FF; } .ok { fill:#3fb950; } .w { fill:#d29922; }
+      .show { opacity:0; animation: in .35s ease forwards; }
+      @keyframes in { to { opacity:1; } }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity:0; } }
+      .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.35; } }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="898" height="418" rx="14" fill="url(#bg)" stroke="#30363d"/>
+  <rect x="1" y="1" width="898" height="418" rx="14" fill="url(#grid)"/>
+  <rect x="1" y="1" width="898" height="418" rx="14" fill="url(#glow)"/>
+  <path d="M15 1h870a14 14 0 0 1 14 14v25H1V15A14 14 0 0 1 15 1z" fill="#161b22"/>
+  <line x1="1" y1="40" x2="899" y2="40" stroke="#30363d"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f57"/><circle cx="44" cy="21" r="6" fill="#febc2e"/><circle cx="64" cy="21" r="6" fill="#28c840"/>
+  <text x="450" y="26" text-anchor="middle" class="mono dim" font-size="13">dev@ghildiyal: ~/prod-cluster — zsh</text>
+  <g class="pulse"><circle cx="838" cy="21" r="4" fill="#3fb950"/></g>
+  <text x="848" y="25" class="mono ok" font-size="11">live</text>
+
+  <!-- title -->
+  <text x="40" y="92" class="sans" font-size="44" font-weight="800" fill="url(#brand)" letter-spacing="-1">Dev Ghildiyal</text>
+  <text x="372" y="92" class="mono dim" font-size="15">// DevOps Engineer · Cloud · SRE</text>
+
+  <!-- cmd 1 -->
+  <g clip-path="url(#t1)">
+    <text x="40" y="146" class="mono" font-size="15"><tspan class="p">❯ </tspan><tspan class="c">kubectl get engineer dev-ghildiyal -o wide</tspan></text>
+  </g>
+  <g class="show" style="animation-delay:2.4s">
+    <text x="40" y="176" class="mono dim" font-size="13.5" xml:space="preserve">NAME            ROLE              STATUS     LOCATION      STACK</text>
+  </g>
+  <g class="show" style="animation-delay:2.7s">
+    <text x="40" y="198" class="mono c" font-size="13.5" xml:space="preserve">dev-ghildiyal   DevOps Engineer   <tspan class="ok">● Running</tspan>  Mumbai, IN    <tspan class="k">AWS·K8s·Terraform</tspan></text>
+  </g>
+
+  <!-- cmd 2 -->
+  <g clip-path="url(#t2)">
+    <text x="40" y="246" class="mono" font-size="15"><tspan class="p">❯ </tspan><tspan class="c">cat mission</tspan></text>
+  </g>
+  <g class="show" style="animation-delay:4.7s">
+    <text x="40" y="274" class="mono" font-size="14.5" fill="#e6edf3">I build systems that <tspan class="k" font-weight="700">fix themselves</tspan>, <tspan class="ok" font-weight="700">deploy safely</tspan>, and <tspan class="w" font-weight="700">cost less</tspan>.</text>
+  </g>
+
+  <!-- cmd 3 -->
+  <g clip-path="url(#t3)">
+    <text x="40" y="316" class="mono" font-size="15"><tspan class="p">❯ </tspan><tspan class="c">./ship --prod</tspan></text>
+  </g>
+  <g class="mono" font-size="13.5">
+    <text x="40" y="344" class="show" style="animation-delay:6.6s"><tspan class="ok">✔</tspan><tspan class="c"> lint</tspan></text>
+    <text x="120" y="344" class="show" style="animation-delay:7.0s"><tspan class="ok">✔</tspan><tspan class="c"> test</tspan></text>
+    <text x="200" y="344" class="show" style="animation-delay:7.4s"><tspan class="ok">✔</tspan><tspan class="c"> trivy scan</tspan></text>
+    <text x="330" y="344" class="show" style="animation-delay:7.8s"><tspan class="ok">✔</tspan><tspan class="c"> canary 10% → 100%</tspan></text>
+    <text x="510" y="344" class="show" style="animation-delay:8.3s"><tspan class="ok">✔</tspan><tspan class="c"> rollout complete</tspan></text>
+    <text x="40" y="368" class="show dim" style="animation-delay:8.8s">deployment.apps/dev-ghildiyal configured · 0 downtime · 0 pages · coffee: ☕☕☕</text>
+  </g>
+
+  <!-- prompt + cursor -->
+  <g class="show" style="animation-delay:9.3s">
+    <text x="40" y="398" class="mono p" font-size="15">❯</text>
+    <rect x="56" y="385" width="9" height="17" fill="#00D4FF" class="cursor"/>
+  </g>
+</svg>

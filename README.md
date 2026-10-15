@@ -1,76 +1,133 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:00D4FF&height=200&section=header&text=Hey,%20I'm%20Dev%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=DevOps%20Engineer%20%C2%B7%20Cloud%20Infrastructure%20%C2%B7%20Mumbai,%20India&descAlignY=55&descSize=18" width="100%"/>
+<img src="./assets/hero.svg" width="100%" alt="Terminal: kubectl get engineer dev-ghildiyal, a DevOps Engineer in Mumbai. Mission: I build systems that fix themselves, deploy safely, and cost less."/>
 
-<p><i>I build systems that fix themselves, deploy safely, and cost less.</i></p>
+<br/>
 
 <a href="https://linkedin.com/in/dev-ghildiyal-8777a8329"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:ghildiyaldev1325@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://img.shields.io/github/followers/DEV-GHILDIYAL?style=for-the-badge&logo=github&label=Followers&color=181717"/>
+<a href="https://github.com/DEV-GHILDIYAL?tab=followers"><img src="https://img.shields.io/github/followers/DEV-GHILDIYAL?style=for-the-badge&logo=github&label=Followers&color=181717"/></a>
 <img src="https://komarev.com/ghpvc/?username=DEV-GHILDIYAL&style=for-the-badge&color=00D4FF&label=Profile+Views"/>
 
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=Self-Healing+Kubernetes+Infra;CI%2FCD+That+Just+Works;Cutting+Cloud+Costs+with+AI;Always+Shipping%2C+Always+Learning" alt="Typing SVG"/>
+<sub>⚡ This profile is a running system: the dashboard, activity feed and chaos cluster below are rebuilt by GitHub Actions.</sub>
 
 </div>
 
----
+## `$ cat dev-ghildiyal.yaml`
 
-### 🧑‍💻 About Me
+```yaml
+apiVersion: humans.dev/v1
+kind: Engineer
+metadata:
+  name: dev-ghildiyal
+  namespace: mumbai-in
+  labels:
+    role: devops-engineer
+    company: fyntune
+    education: cs-graduate        # CGPA 9.02
+spec:
+  replicas: 1                     # sadly cannot be scaled horizontally
+  focus:
+    - cloud-infrastructure        # AWS, Terraform
+    - kubernetes                  # self-healing clusters
+    - ci-cd                       # pipelines that just work
+    - observability               # Prometheus, Grafana, Loki, OTel
+    - ai-for-ops                  # tools that replace 3am pages
+  philosophy: >
+    If a human has to do it twice, a pipeline should do it the third time.
+  resources:
+    requests: { coffee: "3 cups/day", curiosity: "unbounded" }
+  livenessProbe:
+    exec: { command: ["git", "push"] }
+    periodSeconds: 86400
+status:
+  phase: Running
+  conditions:
+    - type: OpenToCollaborate
+      status: "True"
+```
 
-DevOps-focused CS graduate (CGPA: 9.02) working as a **DevOps Engineer**, based in Mumbai. I specialize in cloud infrastructure, Kubernetes, CI/CD automation, and observability — with a track record of building AI-powered internal tools that reduce manual effort and improve reliability at scale.
-
-I'm particularly drawn to infrastructure problems where automation, intelligent monitoring, and self-healing systems can replace repetitive human intervention.
-
----
-
-### 🛠️ Tech Stack
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DEV-GHILDIYAL/DEV-GHILDIYAL/main/assets/devops-marquee.svg" width="100%"/>
-</p>
-
----
-
-### 🚀 Featured Projects
-
-**[GhostOps](https://github.com/DEV-GHILDIYAL/GhostOps)** — AI-Powered Self-Healing Kubernetes Infrastructure
-Self-healing K8s platform with automated failure detection, AI-driven root cause analysis, and chaos engineering workflows. Stack: Kubernetes · Prometheus · Grafana · Loki · OpenTelemetry · Python · AWS
-
-**[ShadowDeploy](https://github.com/DEV-GHILDIYAL/ShadowDeploy)** — Canary & Shadow Deployment Platform
-Mirrors production traffic to validate new versions before rollout. AI-powered deployment confidence scoring to catch latency spikes before they reach users. Stack: Kubernetes · Istio · ArgoCD · GitHub Actions · FastAPI
-
-**[CloudBill Assassin](https://github.com/DEV-GHILDIYAL/CloudBillAssassin)** — AWS Cost Optimization & FinOps
-Detects idle resources, oversized services, and billing anomalies across AWS infrastructure. Automated scheduling + Terraform-managed reporting. Stack: AWS Lambda · EventBridge · Terraform · DynamoDB · Boto3
-
----
-
-### 📊 GitHub Stats
+## 🧰 Toolchain
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DEV-GHILDIYAL&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DEV-GHILDIYAL&layout=compact&theme=dark&hide_border=true" height="150"/>
+  <img src="./assets/devops-marquee.svg" width="100%" alt="AWS, Kubernetes, Docker, Terraform and more"/>
 </p>
+
+## 🚀 Workloads in production
+
+<a href="https://github.com/DEV-GHILDIYAL/ghostops"><img src="./assets/pods/ghostops.svg" width="100%" alt="GhostOps: AI-powered self-healing Kubernetes infrastructure"/></a>
+<a href="https://github.com/DEV-GHILDIYAL/ShadowDeploy"><img src="./assets/pods/shadowdeploy.svg" width="100%" alt="ShadowDeploy: canary and shadow deployment platform"/></a>
+<a href="https://github.com/DEV-GHILDIYAL/CloudBillAssassin"><img src="./assets/pods/cloudbill.svg" width="100%" alt="CloudBill Assassin: AWS cost optimization and FinOps"/></a>
+
+<details>
+<summary><b>🔍 <code>kubectl describe pod ghostops</code>: how the self-healing loop works</b></summary>
+<br/>
+
+```mermaid
+flowchart LR
+    A[💥 Failure<br/>pod crash · latency · OOM] --> B[📡 Detect<br/>Prometheus · Loki · OTel]
+    B --> C{🧠 AI root-cause<br/>analysis}
+    C -->|known pattern| D[🔧 Auto-remediate<br/>restart · scale · rollback]
+    C -->|novel| E[📝 Incident report<br/>+ suggested fix]
+    D --> F[✅ Verify SLOs<br/>Grafana]
+    F -->|healthy| G((😴 nobody paged))
+    F -->|still failing| C
+    H[🐒 Chaos experiments] -.->|inject faults| A
+```
+
+</details>
+
+## 🐒 Break my cluster (yes, really)
+
+My whole job is building infrastructure that **survives failure**, so here's a cluster you can attack. Click an attack, then hit **Submit new issue**. A GitHub Action injects the fault, the cluster heals itself, your incident shows up on this profile, and the bot replies with your recovery time.
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DEV-GHILDIYAL&theme=dark&hide_border=true" height="150"/>
+  <img src="./assets/cluster.svg" width="100%" alt="Live chaos cluster with 3 nodes and 9 pods"/>
 </p>
 
----
+<div align="center">
 
-### 🐍 Contribution Graph
+| | 🎯 `ghostops` | 🎯 `shadowdeploy` | 🎯 `cloudbill` | 🎯 `api-gateway` | 🎯 `redis` |
+|:--|:--:|:--:|:--:|:--:|:--:|
+| 💀 **kill-pod** | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ckill-pod%7Cghostops&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ckill-pod%7Cshadowdeploy&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ckill-pod%7Ccloudbill&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ckill-pod%7Capi-gateway&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ckill-pod%7Credis&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) |
+| 🔥 **cpu-spike** | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ccpu-spike%7Cghostops&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ccpu-spike%7Cshadowdeploy&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ccpu-spike%7Ccloudbill&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ccpu-spike%7Capi-gateway&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Ccpu-spike%7Credis&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) |
+| 🌩️ **net-chaos** | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Cnet-chaos%7Cghostops&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Cnet-chaos%7Cshadowdeploy&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Cnet-chaos%7Ccloudbill&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Cnet-chaos%7Capi-gateway&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Cnet-chaos%7Credis&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) |
+| 🧨 **oom** | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Coom%7Cghostops&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Coom%7Cshadowdeploy&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Coom%7Ccloudbill&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Coom%7Capi-gateway&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) | [attack](https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL/issues/new?title=chaos%7Coom%7Credis&body=Just+click+%22Submit+new+issue%22.+The+cluster+will+heal+itself+in+about+a+minute.) |
+
+</div>
+
+#### 🚨 Incident board
+
+<!-- CHAOS:START -->
+| incident | chaos agent | attack | how it self-healed | MTTR |
+|:--|:--|:--|:--|--:|
+| — | *you?* | the cluster is suspiciously calm | — | — |
+
+**Top chaos agents:** *empty — claim the top spot*
+<!-- CHAOS:END -->
+
+<sub>Also targetable by hand: <code>prometheus</code>, <code>grafana</code>, <code>argocd</code>, <code>loki</code>. Title format: <code>chaos|&lt;action&gt;|&lt;pod&gt;</code>.</sub>
+
+## 📊 Observability
+
+<p align="center">
+  <img src="./assets/dashboard.svg" width="100%" alt="Grafana-style dashboard of GitHub contributions, streaks, repos, stars and languages"/>
+</p>
+
+#### 📜 `kubectl logs -f dev-ghildiyal --tail=6`
+
+<!-- ACTIVITY:START -->
+| timestamp (IST) | | event |
+|:--|:-:|:--|
+| `Oct 11 · 17:30` | 🚀 | pushed 30 times to [JenkinsAI-Bot](https://github.com/DEV-GHILDIYAL/JenkinsAI-Bot) |
+| `Oct 11 · 12:27` | 🌱 | created branch `main` in [JenkinsAI-Bot](https://github.com/DEV-GHILDIYAL/JenkinsAI-Bot) |
+| `Oct 09 · 18:36` | 🚀 | pushed 3 times to [Project-Soulbound](https://github.com/DEV-GHILDIYAL/Project-Soulbound) |
+| `Oct 08 · 14:11` | 🌱 | created branch `main` in [Project-Soulbound](https://github.com/DEV-GHILDIYAL/Project-Soulbound) |
+| `Oct 04 · 23:46` | 🚀 | pushed to [NichePilot](https://github.com/DEV-GHILDIYAL/NichePilot) |
+| `Oct 04 · 22:23` | 🌱 | created branch `main` in [NichePilot](https://github.com/DEV-GHILDIYAL/NichePilot) |
+<!-- ACTIVITY:END -->
+
+## 🐍 Contribution graph, consumed
 
 <p align="center">
   <picture>
@@ -80,4 +137,28 @@ Detects idle resources, oversized services, and billing anomalies across AWS inf
   </picture>
 </p>
 
+<details>
+<summary><b>🥚 <code>$ sudo rm -rf / --no-preserve-root</code></b></summary>
+<br/>
+
+```console
+[sudo] password for visitor: ********
+visitor is not in the sudoers file. This incident will be reported.
+
+  ✋ Nice try. This profile is protected by:
+     • RBAC (you're a viewer)
+     • a PodDisruptionBudget of 1
+     • GhostOps, which would have healed it anyway
+
+  Try the chaos table above instead, it's legal there. 🐒
+```
+
+</details>
+
+<div align="center">
+
+<sub>Built with hand-written SVG, Python & GitHub Actions. No third-party stats servers were harmed. · <a href="https://github.com/DEV-GHILDIYAL/DEV-GHILDIYAL">view source</a></sub>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:0A66C2&height=100&section=footer" width="100%"/>
+
+</div>
