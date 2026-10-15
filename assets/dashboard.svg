@@ -8,7 +8,7 @@
   <g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
     <rect x="16" y="14" width="10" height="20" rx="2" fill="#ff9830"/><rect x="28" y="20" width="10" height="14" rx="2" fill="#fade2a"/><rect x="40" y="10" width="10" height="24" rx="2" fill="#00D4FF"/>
     <text x="60" y="30" font-size="15" font-weight="700" fill="#ccccdc">Dashboards / <tspan fill="#ffffff">dev-ghildiyal · github-telemetry</tspan></text>
-    <text x="884" y="30" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">⟳ every 6h · last scrape 2026-10-16 00:13 IST</text>
+    <text x="884" y="30" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">⟳ every 6h · last scrape 2026-10-16 00:19 IST</text>
   </g>
   <g transform="translate(16,56)">
     <rect width="138" height="92" rx="8" fill="#181b1f" stroke="#2c3235"/>
@@ -49,22 +49,22 @@
     <text x="600" y="182" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#ccccdc" font-weight="600">languages · by repo</text>
     <text x="600" y="215" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">JavaScript</text>
     <rect x="684" y="204" width="156" height="14" rx="3" fill="#22252b"/>
-    <rect x="684" y="204" width="0" height="14" rx="3" fill="#f1e05a"><animate attributeName="width" to="53.6" dur="1.2s" begin="0.00s" fill="freeze"/></rect>
-    <text x="874" y="215" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">34%</text><text x="600" y="241" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">TypeScript</text>
+    <rect x="684" y="204" width="0" height="14" rx="3" fill="#f1e05a"><animate attributeName="width" to="52.0" dur="1.2s" begin="0.00s" fill="freeze"/></rect>
+    <text x="874" y="215" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">33%</text><text x="600" y="241" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">TypeScript</text>
     <rect x="684" y="230" width="156" height="14" rx="3" fill="#22252b"/>
-    <rect x="684" y="230" width="0" height="14" rx="3" fill="#3178c6"><animate attributeName="width" to="39.0" dur="1.2s" begin="0.12s" fill="freeze"/></rect>
-    <text x="874" y="241" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">25%</text><text x="600" y="267" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">Python</text>
+    <rect x="684" y="230" width="0" height="14" rx="3" fill="#3178c6"><animate attributeName="width" to="37.8" dur="1.2s" begin="0.12s" fill="freeze"/></rect>
+    <text x="874" y="241" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">24%</text><text x="600" y="267" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">Python</text>
     <rect x="684" y="256" width="156" height="14" rx="3" fill="#22252b"/>
-    <rect x="684" y="256" width="0" height="14" rx="3" fill="#3572A5"><animate attributeName="width" to="24.4" dur="1.2s" begin="0.24s" fill="freeze"/></rect>
-    <text x="874" y="267" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">16%</text><text x="600" y="293" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">Java</text>
+    <rect x="684" y="256" width="0" height="14" rx="3" fill="#3572A5"><animate attributeName="width" to="28.4" dur="1.2s" begin="0.24s" fill="freeze"/></rect>
+    <text x="874" y="267" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">18%</text><text x="600" y="293" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">Java</text>
     <rect x="684" y="282" width="156" height="14" rx="3" fill="#22252b"/>
-    <rect x="684" y="282" width="0" height="14" rx="3" fill="#b07219"><animate attributeName="width" to="9.8" dur="1.2s" begin="0.36s" fill="freeze"/></rect>
+    <rect x="684" y="282" width="0" height="14" rx="3" fill="#b07219"><animate attributeName="width" to="9.5" dur="1.2s" begin="0.36s" fill="freeze"/></rect>
     <text x="874" y="293" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">6%</text><text x="600" y="319" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">HTML</text>
     <rect x="684" y="308" width="156" height="14" rx="3" fill="#22252b"/>
-    <rect x="684" y="308" width="0" height="14" rx="3" fill="#e34c26"><animate attributeName="width" to="9.8" dur="1.2s" begin="0.48s" fill="freeze"/></rect>
+    <rect x="684" y="308" width="0" height="14" rx="3" fill="#e34c26"><animate attributeName="width" to="9.5" dur="1.2s" begin="0.48s" fill="freeze"/></rect>
     <text x="874" y="319" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">6%</text><text x="600" y="345" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#ccccdc">C#</text>
     <rect x="684" y="334" width="156" height="14" rx="3" fill="#22252b"/>
-    <rect x="684" y="334" width="0" height="14" rx="3" fill="#178600"><animate attributeName="width" to="9.8" dur="1.2s" begin="0.60s" fill="freeze"/></rect>
+    <rect x="684" y="334" width="0" height="14" rx="3" fill="#178600"><animate attributeName="width" to="9.5" dur="1.2s" begin="0.60s" fill="freeze"/></rect>
     <text x="874" y="345" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8e8e8e">6%</text>
   </g>
 </svg>
